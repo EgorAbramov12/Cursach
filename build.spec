@@ -9,9 +9,6 @@ a = Analysis(
         ('images/*', 'images'),
         ('icons/*', 'icons')
     ],
-    datas=[
-        (os.path.join(sys._MEIPASS, 'PyQt5', 'Qt5', 'plugins'), 'plugins'),
-    ],
     hiddenimports=[
         'cryptography.hazmat.backends',
         'cryptography.hazmat.primitives',
