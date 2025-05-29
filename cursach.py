@@ -12,8 +12,8 @@ from cryptography.exceptions import InvalidTag
 from argon2.low_level import hash_secret_raw, Type
 
 # Пути к изображениям (оставлены как в оригинале)
-COVER_IMAGE_PATH = r"C:\Users\Егор\Desktop\Изображение н обложку.jpg"
-APP_ICON_PATH = r"C:\Users\Егор\Desktop\Иконка для курсача.jpg"
+COVER_IMAGE_PATH = "cover.jpg"
+APP_ICON_PATH = "app_icon.ico"
 
 
 class CryptoManager:
